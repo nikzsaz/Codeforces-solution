@@ -19,8 +19,7 @@ int main() {
     }
     int intersectvalue = b[a-1];
     int intersectvalue1 = b[a ];
- /*   cout << intersectvalue<<" "<<intersectvalue1;*/
-/*    cout<<result1<< " "<<result2;*/
+
     if((result1 < result2) && (intersectvalue < intersectvalue1)){
         cout<<"YES"<<endl;
     }else{
