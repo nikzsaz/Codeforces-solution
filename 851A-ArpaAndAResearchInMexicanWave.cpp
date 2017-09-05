@@ -1,4 +1,5 @@
 #include <iostream>
+//http://codeforces.com/problemset/problem/851/A
 using namespace std;
 typedef long long ll;
 int main() {
