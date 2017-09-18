@@ -5,14 +5,18 @@ int main() {
 	string s;
 	int arr[21];
 	cin>>s;
+	
 	for(int i=0;i<s.size();i++){
 	    arr[i]=s[i]-'0';
 	}
+	
 	int count=0;
+	
 	for(int i=0;i<s.size();i++){
 	    if(arr[i]==7 || arr[i]==4)
 	        count++;
 	}
+	
 	int digitCount=0;
 	int countNext=0;
 	while(count!=0){
