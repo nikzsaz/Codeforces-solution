@@ -10,6 +10,7 @@ int main() {
 	        i+=2;
 	        if(!flag){
 	            cout<<" ";
+                    flag = 1;
 	        }
 	        continue;
 	    }else {
